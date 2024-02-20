@@ -131,11 +131,10 @@ img.iico {
 }
 
 .logo_src {
-    width: 90%;
-    position: absolute;
-    top: 0;
-    right: 0;
+    width: 100%;
+    max-width: 80px;
     z-index: 1;
+    margin-left: 10px;
 }
 
 .desc {
