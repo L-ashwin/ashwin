@@ -110,32 +110,35 @@ img.iico {
     padding-right: 1em;
     text-align: right;
     height: 200px;
+    font-size:.8em;
+    color: #cfcfcf;
 }
+
 
 .logo {
     grid-column: span 1;
-    border-left: .2em solid #cfcfcf;
-    display: flex;
+    border-left: 2px solid #cfcfcf;
+    position: relative;
 
 }
 
+.logo svg {
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 14px;
+    height: 14px;
+}
+
 .logo_src {
-    width: 80%;
-    object-fit: contain;
-    object-position: top;
+    width: 90%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
 }
 
 .desc {
     grid-column: span 11;
    
-}
-
-
-.entry-dot {
-    margin-left: -.75em;
-    width: 1em;
-    height: 1em;
-    border-radius: .5em;
-    background-color: #cfcfcf;
-    border: .2em solid white;
 }
